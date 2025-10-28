@@ -12,7 +12,7 @@ env:
   PROJECT_NAME: testing
   SERVICE_NAME: voting
   BRANCH: ${{ contains('main staging', github.ref_name) && github.ref_name || 'dev' }}
-  FLUTTER_VERSION: "stable"
+  FLUTTER_VERSION: "3.27.0"
   JAVA_VERSION: "17"
 
 jobs:
